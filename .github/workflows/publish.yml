@@ -15,6 +15,15 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm publish
+      - name: publish
+        run: |
+          cd arknights
+          npm publish
+          cd ../
+          cd genshin
+          npm publish
+          cd ../
+          cd other
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
