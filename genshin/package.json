@@ -1,6 +1,6 @@
 {
   "name": "tnxg-img",
-  "version": "genshin_0.0.1",
+  "version": "genshin-0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
