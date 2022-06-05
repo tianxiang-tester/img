@@ -23,7 +23,7 @@ jobs:
           cd genshin
           npm publish
           cd ../
-          cd other
+          cd others
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
