@@ -1,0 +1,19 @@
+{
+  "name": "tnxg-img",
+  "version": "10.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianxiang-tester/img.git"
+  },
+  "author": "TNXG",
+  "license": "TSO-BY",
+  "bugs": {
+    "url": "https://github.com/tianxiang-tester/img/issues"
+  },
+  "homepage": "https://github.com/tianxiang-tester/img#readme"
+}
